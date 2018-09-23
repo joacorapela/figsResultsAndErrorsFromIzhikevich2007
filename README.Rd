@@ -13,7 +13,7 @@ For example, to reproduce Figure 4.4, from the "test/" directory, run:
 python2.7 doFig4-4.py 
 
 To generate some figures you might have to run an integration before. For
-example, to reproduce Figure 10.10b "test/ch10/" directory, run:
+example, to reproduce Figure 10.10b, from the "test/ch10/" directory, run:
 
 python2.7 doIntegrateINapIKFig10_1_INapIKHighThreshold.py
 
