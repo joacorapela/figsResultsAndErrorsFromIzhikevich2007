@@ -1,0 +1,50 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citeauthoryear{%
+Hoppensteadt%
+\ \BBA{} Izhikevich%
+}{%
+Hoppensteadt%
+\ \BBA{} Izhikevich%
+}{%
+{\protect\APACyear{1997}}%
+}]{%
+hoppensteadtAndIzhikevich97}%
+\APACinsertmetastar{%
+hoppensteadtAndIzhikevich97}%
+Hoppensteadt, F\BPBI C.%
+\BCBT{}\ \BBA{} Izhikevich, E\BPBI M.%
+%
+\unskip\
+\newblock
+\APACrefYear{1997}.
+\newblock
+\APACrefbtitle{Weakly connected neural networks}{Weakly connected neural
+  networks}\ (\BVOL~126).
+\newblock
+\APACaddressPublisher{}{Springer Science \& Business Media}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Izhikevich%
+}{%
+Izhikevich%
+}{%
+{\protect\APACyear{2007}}%
+}]{%
+izhikevich07}%
+\APACinsertmetastar{%
+izhikevich07}%
+Izhikevich, E\BPBI M.%
+%
+\unskip\
+\newblock
+\APACrefYear{2007}.
+\newblock
+\APACrefbtitle{Dynamical systems in neuroscience}{Dynamical systems in
+  neuroscience}.
+\newblock
+\APACaddressPublisher{}{MIT press}.
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

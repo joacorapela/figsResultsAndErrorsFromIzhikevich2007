@@ -1,0 +1,57 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: malkinsTheorem.aux
+The style file: apacite.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Database file #1: dynamicalSystems.bib
+apacite.bst [2009/03/01 v4.05 APA bibliography style]
+Warning--No address in hoppensteadtAndIzhikevich97
+Warning--No address in izhikevich07
+You've used 2 entries,
+            6361 wiz_defined-function locations,
+            1189 strings with 9911 characters,
+and the built_in function-call counts, 3031 in all, are:
+= -- 377
+> -- 27
+< -- 107
++ -- 118
+- -- 4
+* -- 169
+:= -- 529
+add.period$ -- 8
+call.type$ -- 2
+change.case$ -- 10
+chr.to.int$ -- 0
+cite$ -- 6
+duplicate$ -- 88
+empty$ -- 149
+format.name$ -- 38
+if$ -- 616
+int.to.chr$ -- 0
+int.to.str$ -- 4
+missing$ -- 0
+newline$ -- 48
+num.names$ -- 16
+pop$ -- 91
+preamble$ -- 1
+purify$ -- 8
+quote$ -- 0
+skip$ -- 185
+stack$ -- 0
+substring$ -- 144
+swap$ -- 47
+text.length$ -- 8
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 160
+warning$ -- 2
+while$ -- 13
+width$ -- 0
+write$ -- 55
+(There were 2 warnings)

@@ -1,0 +1,36 @@
+Dear Eugene,
+
+I derived the formula for parameter d in the topological normal form in
+Equations 6.8 and 6.9 of your book. When I used this formula to calculate this
+parameter in the example of page 172, I realized that the values of parameters
+a and d are interchanged in the penultimate paragraph on page 172, in the
+subsequent formula of the topological normal form of the INap+IK model, and
+the center and right panels of Figure 6.12 were computed with interchanged
+parameters.
+
+Section 3 in
+https://sccn.ucsd.edu/~rapela/dynamicalSystems/izhikevich07/ch6/doc/andronovHopfBifurcations.pdf
+provides details on the derivation of the formulas for parameters a and d.
+Section 6 gives details on the calculation of the value of these parameters
+for the Example on page 172 of your book. Section 7 plots the center and
+right panels of Figure 6.12 of your book with the parameters in your book and
+with their reversed values, and shows that the reversed values provide better
+approximations to the numerical simulations.
+
+I also think that Equations (6.8) and (6.9) are only an approximation of a
+true topological normal form. An exact topological normal form should use
+parameters dependent on the bifurcation parameter, as in the Poincaré normal
+form in Kuznetsov 2004 (Lemma 3.6). However, Equations (6.8) and (6.9) use the
+value of these parameters evaluated at b=0. In Section 2 of the above document
+I provide details on this issue and argue that an exact topological normal
+form, with a constant coefficient for the cubic term, is given in Lemma 3.7 of
+Kuznetsov 2004.
+
+I hope this helps to make your excellent book at little better.
+
+Cordially, Joaquin
+
+PS: I copy Prof. Kuznetsov that helped me understand why the topological
+normal form in Lemma 3.7 of his book is exact and Dr. Peter Rowat that has
+adviced me in studying your book.
+

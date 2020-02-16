@@ -1,0 +1,7 @@
+x problem 4.9 Izhikevich
+. study index theory from Strogatz
+. problem 4.10 Izhikevich
+. read ch1 and ch10 of Hirsch
+. finish reading ch5
+. replicate plots ch5
+. problems ch5

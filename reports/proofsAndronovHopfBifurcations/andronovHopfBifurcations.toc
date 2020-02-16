@@ -1,0 +1,9 @@
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}
+\contentsline {section}{\numberline {2}Sketch of the derivation of the \emph {approximate} topological normal form in Equations\nobreakspace {}6.8 and 6.9 of \citet {izhikevich07}}{2}{section.2}
+\contentsline {section}{\numberline {3}Sketch of derivation of formulas for parameters $a$ and $d$ in Equations\nobreakspace {}6.8 and 6.9 of \citet {izhikevich07}}{3}{section.3}
+\contentsline {subsection}{\numberline {3.1}Rationale for Equations\nobreakspace {}6.5 and 6.6 in \citet {izhikevich07}}{4}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Solution to Problem\nobreakspace {}3.16 in \citet {kuznetsov04}}{6}{subsection.3.2}
+\contentsline {section}{\numberline {4}Derivation of formulas for $f(x,y)$ and $g(x,y)$ in Equation\nobreakspace {}6.6 of \citet {izhikevich07}}{9}{section.4}
+\contentsline {section}{\numberline {5}Partial derivatives of $f(x,y)$ and $g(x,y)$ for the calculation of parameters $a$ and $d$ in Equations\nobreakspace {}6.8 and 6.9 in \citet {izhikevich07}}{10}{section.5}
+\contentsline {section}{\numberline {6}Parameters $a$ and $d$ in the example on page 172 of \citet {izhikevich07}}{11}{section.6}
+\contentsline {section}{\numberline {7}Evidence for typo in the example on page 172 of \citet {izhikevich07}}{13}{section.7}

@@ -1,0 +1,1 @@
+aspell -p ~/dev/learning/dynamicalSystems/izhikevich07-dynamicalSystemsInNeuroscience/myReports/andronovHopfBifurcations/andronovHopfBifurcations.dic check andronovHopfBifurcations.tex

@@ -1,0 +1,19 @@
+. Compute G(\psi) for oscillators with different initial conditions (they
+should be equal)
+
+self couplilng = -3.0
+
+set 1
+v00 = -26.21
+n00 = 0.45
+v01 = -25.46
+n01 = 0.5
+\psi = 2.4?
+
+set 2
+v00 = -26.30
+n00 = 0.5
+v01 = -65.01
+n01 = 0.16
+\psi = 0.79?
+

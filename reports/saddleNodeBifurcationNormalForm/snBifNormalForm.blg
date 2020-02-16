@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: snBifNormalForm.aux
+The style file: apacite.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Database file #1: dynamicalSystems.bib
+apacite.bst [2009/03/01 v4.05 APA bibliography style]
+Warning--No address in izhikevich07
+You've used 1 entry,
+            6361 wiz_defined-function locations,
+            1182 strings with 9735 characters,
+and the built_in function-call counts, 1347 in all, are:
+= -- 159
+> -- 10
+< -- 49
++ -- 44
+- -- 2
+* -- 74
+:= -- 256
+add.period$ -- 4
+call.type$ -- 1
+change.case$ -- 5
+chr.to.int$ -- 0
+cite$ -- 3
+duplicate$ -- 33
+empty$ -- 72
+format.name$ -- 14
+if$ -- 268
+int.to.chr$ -- 0
+int.to.str$ -- 2
+missing$ -- 0
+newline$ -- 24
+num.names$ -- 8
+pop$ -- 46
+preamble$ -- 1
+purify$ -- 4
+quote$ -- 0
+skip$ -- 87
+stack$ -- 0
+substring$ -- 50
+swap$ -- 17
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 80
+warning$ -- 1
+while$ -- 5
+width$ -- 0
+write$ -- 25
+(There was 1 warning)

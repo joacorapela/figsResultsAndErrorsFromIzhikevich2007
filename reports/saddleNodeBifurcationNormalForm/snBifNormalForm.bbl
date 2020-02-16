@@ -1,0 +1,25 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citeauthoryear{%
+Izhikevich%
+}{%
+Izhikevich%
+}{%
+{\protect\APACyear{2007}}%
+}]{%
+izhikevich07}%
+\APACinsertmetastar{%
+izhikevich07}%
+Izhikevich, E.%
+%
+\unskip\
+\newblock
+\APACrefYear{2007}.
+\newblock
+\APACrefbtitle{Dynamical systems in neuroscience}{Dynamical systems in
+  neuroscience}.
+\newblock
+\APACaddressPublisher{}{MIT press}.
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

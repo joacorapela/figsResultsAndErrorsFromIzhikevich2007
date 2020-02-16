@@ -1,0 +1,7 @@
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}
+\contentsline {section}{\numberline {2}Malkin's Theorem}{1}{section.2}
+\contentsline {section}{\numberline {3}Two succesive simplifications and one example of Malkin's theorem}{2}{section.3}
+\contentsline {paragraph}{Note 1}{4}{section*.4}
+\contentsline {paragraph}{Note 2}{4}{section*.5}
+\contentsline {section}{\numberline {4}Problem in Figure\nobreakspace {}10-26 of \citet {izhikevich07}}{5}{section.4}
+\contentsline {section}{\numberline {5}Verification of Malkin's Theorem}{5}{section.5}

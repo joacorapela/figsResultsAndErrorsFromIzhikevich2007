@@ -1,0 +1,238 @@
+
+R version 3.3.1 (2016-06-21) -- "Bug in Your Hair"
+Copyright (C) 2016 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+Loading required package: graphics
+Loading required package: stats
+Loading required package: utils
+
+Attaching package: ‘signal’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, poly
+
+
+Attaching package: ‘boot’
+
+The following object is masked from ‘package:lattice’:
+
+    melanoma
+
+
+Attaching package: ‘car’
+
+The following object is masked _by_ ‘.GlobalEnv’:
+
+    ellipse
+
+The following object is masked from ‘package:boot’:
+
+    logit
+
+
+Attaching package: ‘circular’
+
+The following objects are masked from ‘package:stats’:
+
+    sd, var
+
+Loading required package: mvtnorm
+Loading required package: survival
+
+Attaching package: ‘survival’
+
+The following object is masked from ‘package:boot’:
+
+    aml
+
+Loading required package: TH.data
+
+Attaching package: ‘TH.data’
+
+The following object is masked from ‘package:MASS’:
+
+    geyser
+
+
+   Welcome to R!
+
+> 
+> 
+> import sys
+Error: unexpected symbol in "import sys"
+> import numpy as np
+Error: unexpected symbol in "import numpy"
+> import math
+Error: unexpected symbol in "import math"
+> from scipy.interpolate import splprep, splev
+Error: unexpected symbol in "from scipy.interpolate"
+> import pdb
+Error: unexpected symbol in "import pdb"
+> import matplotlib.pyplot as plt
+Error: unexpected symbol in "import matplotlib.pyplot"
+> from INapIKModel import INapIKModel
+Error: unexpected symbol in "from INapIKModel"
+> from utils import getPeakIndices, computeIsochron, sortIsochron
+Error: unexpected symbol in "from utils"
+> from plotFunctions import plotINapIKNullclines
+Error: unexpected symbol in "from plotFunctions"
+> 
+> def main(argv):
+Error: unexpected symbol in "def main"
+>     indexPhaseX0 = 6
+>     numberOfPhasesForX0 = 40
+>     i0 = 10
+>     nSPLUNew = 1000
+>     vMin = -90
+>     vMax = 15
+>     nMin = -0.1
+>     nMax = 0.8
+>     integrationFilename = "results/integrationINapIKFig10_1.npz"
+>     isochronFilename = \
+Error: unexpected input in "    isochronFilename = \"
+>      "results/isochronINapIKFig10_1Phase%02dOver%d.npz"%(indexPhaseX0, 
+Error: unexpected input in "     "results/isochronINapIKFig10_1Phase%02dOver%d.npz"%(indexPhaseX0, "
+>                                                           numberOfPhasesForX0)
+Error: unexpected ')' in "                                                          numberOfPhasesForX0)"
+>     figFilename = \
+Error: unexpected input in "    figFilename = \"
+>      "figures/isochronINapIKFig10_1Phase%02dOver%d.eps"%(indexPhaseX0, 
+Error: unexpected input in "     "figures/isochronINapIKFig10_1Phase%02dOver%d.eps"%(indexPhaseX0, "
+>                                                           numberOfPhasesForX0)
+Error: unexpected ')' in "                                                          numberOfPhasesForX0)"
+> 
+>     results = np.load(integrationFilename)
+Error: could not find function "np.load"
+>     times = results["times"]
+Error: object 'results' not found
+>     ys = results["ys"]
+Error: object 'results' not found
+>     spikeIndices = getPeakIndices(v=ys[0,:])
+Error: unexpected ':' in "    spikeIndices = getPeakIndices(v=ys[0,:"
+>     spikeTimes = times[spikeIndices]
+Error: object 'times' not found
+> 
+>     times = np.delete(times, np.arange(0,spikeIndices[0]))
+Error: could not find function "np.delete"
+>     times = times-times[0]
+Error: object 'times' not found
+>     ys = np.delete(ys, np.arange(0,spikeIndices[0]), axis=1)
+Error: could not find function "np.delete"
+>     spikeIndices = spikeIndices-spikeIndices[0]
+Error: object 'spikeIndices' not found
+>     spikeTimes = spikeTimes-spikeTimes[0]
+Error: object 'spikeTimes' not found
+>     period = spikeTimes[1]-spikeTimes[0]
+Error: object 'spikeTimes' not found
+>     phases = times%period
+Error: unexpected input in "    phases = times%period"
+>     phasesForX0 = np.arange(0, period, period/numberOfPhasesForX0)
+Error: could not find function "np.arange"
+>     indicesBtwFirstAndSecondSpike = np.arange(0, spikeIndices[1])
+Error: could not find function "np.arange"
+>     phasesToSearch = phases[indicesBtwFirstAndSecondSpike]
+Error: object 'phases' not found
+> 
+>     indicesPhasesForX0 = np.empty(len(phasesForX0), dtype=np.int64)
+Error: could not find function "np.empty"
+>     for i in xrange(len(phasesForX0)):
+Error: unexpected symbol in "    for i"
+>         phaseForX0 = phasesForX0[i]
+Error: object 'phasesForX0' not found
+>         indicesPhasesForX0[i] = np.argmin(np.abs(phasesToSearch-phaseForX0))
+Error: could not find function "np.argmin"
+>     x0 = ys[:, indicesPhasesForX0[indexPhaseX0]]
+Error: unexpected ':' in "    x0 = ys[:"
+> 
+>     results = np.load(isochronFilename)
+Error: could not find function "np.load"
+>     isochron = results["isochron"]
+Error: object 'results' not found
+> 
+>     validIndices = np.logical_and(np.logical_and(vMin<=isochron[0,:], 
+Error: unexpected ':' in "    validIndices = np.logical_and(np.logical_and(vMin<=isochron[0,:"
+>                                                   isochron[0,:]<=vMax),
+Error: unexpected ':' in "                                                  isochron[0,:"
+>                                    np.logical_and(nMin<=isochron[1,:], 
+Error: unexpected ':' in "                                   np.logical_and(nMin<=isochron[1,:"
+>                                                    isochron[1,:]<=nMax)).nonzero()[0]
+Error: unexpected ':' in "                                                   isochron[1,:"
+>     isochron = isochron[:,validIndices]
+Error: unexpected ':' in "    isochron = isochron[:"
+> 
+>     sortedIsochron = sortIsochron(isochron=isochron)
+Error: could not find function "sortIsochron"
+> 
+>     splTck, splU = splprep(sortedIsochron, s=5.0)
+Error: unexpected ',' in "    splTck,"
+>     splUNew = np.linspace(splU.min(), splU.max(), nSPLUNew)
+Error: could not find function "np.linspace"
+>     splXInter, splYInter = splev(splUNew, splTck, der=0)
+Error: unexpected ',' in "    splXInter,"
+> 
+>     # plt.figure()
+>     # plotHighThresholdINapIKVectorField(i=i0)
+>     plt.plot(ys[0, :], ys[1, :], label="limit cycle attractor")
+Error: unexpected ':' in "    plt.plot(ys[0, :"
+>     # pdb.set_trace()
+> 
+>     plt.annotate("x0", xy=x0, color="red", size=14)
+Error: could not find function "plt.annotate"
+> 
+>     def i(t):
+Error: unexpected symbol in "    def i"
+>         return(i0)
+Error: no function to return from, jumping to top level
+>     model = INapIKModel.getHighThresholdInstance(i=i)
+Error: could not find function "INapIKModel.getHighThresholdInstance"
+>     plotINapIKNullclines(i=i0, eL=model._eL, gL=model._gL, eNa=model._eNa, gNa=model._gNa, eK=model._eK, gK=model._gK, mVOneHalf=model._mVOneHalf, mK=model._mK, nVOneHalf=model._nVOneHalf, nK=model._nK)
+Error: could not find function "plotINapIKNullclines"
+>     plt.plot(isochron[0,:], isochron[1,:], marker="o", color="red", linestyle="None")
+Error: unexpected ':' in "    plt.plot(isochron[0,:"
+>     plt.plot(splXInter, splYInter, color="gray", linestyle="solid")
+Error: could not find function "plt.plot"
+>     plt.legend(loc="upper left")
+Error: could not find function "plt.legend"
+>     plt.xlabel("Voltage (mv)")
+Error: could not find function "plt.xlabel"
+>     plt.ylabel("K activation variable, n")
+Error: could not find function "plt.ylabel"
+>     plt.xlim((-90, 15))
+Error: unexpected ',' in "    plt.xlim((-90,"
+>     plt.ylim((-0.1, 0.8))
+Error: unexpected ',' in "    plt.ylim((-0.1,"
+>     plt.savefig(figFilename)
+Error: could not find function "plt.savefig"
+>     plt.show()
+Error: could not find function "plt.show"
+>     pdb.set_trace()
+Error: could not find function "pdb.set_trace"
+> 
+> if __name__ == "__main__":
+Error: unexpected input in "if _"
+>     main(sys.argv)
+Error: could not find function "main"
+> 
+> 
+
+   Goodbye!
+
+> proc.time()
+   user  system elapsed 
+  2.408   0.116   5.337 

@@ -1,0 +1,47 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citeauthoryear{%
+Izhikevich%
+}{%
+Izhikevich%
+}{%
+{\protect\APACyear{2007}}%
+}]{%
+izhikevich07}%
+\APACinsertmetastar{%
+izhikevich07}%
+Izhikevich, E\BPBI M.%
+%
+\unskip\
+\newblock
+\APACrefYear{2007}.
+\newblock
+\APACrefbtitle{Dynamical systems in neuroscience}{Dynamical systems in
+  neuroscience}.
+\newblock
+\APACaddressPublisher{}{MIT press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem[\protect\citeauthoryear{%
+Kuznetsov%
+}{%
+Kuznetsov%
+}{%
+{\protect\APACyear{2004}}%
+}]{%
+kuznetsov04}%
+\APACinsertmetastar{%
+kuznetsov04}%
+Kuznetsov, Y\BPBI A.%
+%
+\unskip\
+\newblock
+\APACrefYear{2004}.
+\newblock
+\APACrefbtitle{Elements of applied bifurcation theory}{Elements of applied
+  bifurcation theory}\ (\BVOL~112).
+\newblock
+\APACaddressPublisher{}{Springer Science \& Business Media}.
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

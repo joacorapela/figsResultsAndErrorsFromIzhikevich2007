@@ -1,0 +1,9 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Sketch of the derivation of the approximate topological normal form in Equations 6.8 and 6.9 of izhikevich07}{}% 2
+\BOOKMARK [1][-]{section.3}{Sketch of derivation of formulas for parameters a and d in Equations 6.8 and 6.9 of izhikevich07}{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{Rationale for Equations 6.5 and 6.6 in izhikevich07}{section.3}% 4
+\BOOKMARK [2][-]{subsection.3.2}{Solution to Problem 3.16 in kuznetsov04}{section.3}% 5
+\BOOKMARK [1][-]{section.4}{Derivation of formulas for f\(x,y\) and g\(x,y\) in Equation 6.6 of izhikevich07}{}% 6
+\BOOKMARK [1][-]{section.5}{Partial derivatives of f\(x,y\) and g\(x,y\) for the calculation of parameters a and d in Equations 6.8 and 6.9 in izhikevich07}{}% 7
+\BOOKMARK [1][-]{section.6}{Parameters a and d in the example on page 172 of izhikevich07}{}% 8
+\BOOKMARK [1][-]{section.7}{Evidence for typo in the example on page 172 of izhikevich07}{}% 9

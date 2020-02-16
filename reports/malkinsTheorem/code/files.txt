@@ -1,0 +1,10 @@
+. doSaveParametrizationLimitCycleINapIKLowThreshold.py
+. doIntegrateQFig10_23INapIKLowThreshold.py
+. doSaveMalkinsHFuncINapIKLowThresholdWithSelfCoupling.py
+. doFig10_26INapIKLowThresholdWithSelfCoupling.py
+. doSaveMalkinsGFuncINapIKLowThresholdWithSelfCoupling.py
+. doSaveMalkinsWiConstantINapIKLowThresholdWithSelfCoupling.py 0 $selfCouplingStrength
+. doSaveMalkinsWiConstantINapIKLowThresholdWithSelfCoupling.py 1 $selfCouplingStrength
+. doSaveMalkinsWConstantINapIKLowThresholdWithSelfCoupling.py $selfCouplingStrength
+. doFig10_30INapIKLowThresholdWithSelfCoupling.py $selfCouplingStrength
+
