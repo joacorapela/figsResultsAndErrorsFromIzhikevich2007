@@ -10,3 +10,4 @@ The <a href=ipynb>ipynb</a> directory contains Jupyter notebooks and the <a href
 
 A large number of figures in the book have been reproduced in the <a href=scripts>scripts</a> directory and only a few of them have been reproduced in the <a href=ipynb>ipynb</a> directory (work in progress). The code is not very well organized (work in progress).
 
+Please open an issue to report bugs, request code modifications or make any other comment.
