@@ -1,6 +1,8 @@
 # Code to reproduce figures and errors from the book 
 # Izhikevich, E. Dynamical Systems in Neuroscience. MIT Press. 2007.
 
+!(images/icon48.png "Under construction")
+
 The code has been developed in Python 2.7.
 It requires numpy, scipi and matplotlib.
 
