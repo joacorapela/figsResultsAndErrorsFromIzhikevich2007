@@ -1,12 +1,14 @@
 
 import sys
+import os
 import numpy as np
 import pickle
 import pdb
 import matplotlib.pyplot as plt
-from syncUtils import getPhasesFromVoltages
-from circularStats import circularVariance
-from utils import alignMeasurements
+sys.path.append("../../src")
+from stats.circular import circularVariance
+from utils.misc import alignMeasurements
+from utils.sync import getPhasesFromVoltages
 
 def main(argv):
     def computeCircularVariances(phases1, phases2):
@@ -59,13 +61,13 @@ def main(argv):
     # phaseDeviationsNeuron0 = computeCircularVariances(phases1=align0Res["alignedMeasurements0"]*2*np.pi/T, phases2=align0Res["alignedMeasurements1"]*2*np.pi/T)*T/2.0
     phaseDeviationsNeuron0 = (align0Res["alignedMeasurements0"]-align0Res["alignedMeasurements1"])%T
     # begin debug
-    plt.plot(align0Res["alignedTimes0"], align0Res["alignedMeasurements0"], label=r"coupled $\theta_0$")
-    plt.plot(align0Res["alignedTimes1"], align0Res["alignedMeasurements1"], label=r"uncoupled $\theta_1$")
-    plt.plot(align0Res["alignedTimes0"], phaseDeviationsNeuron0, label=r"$\varphi_0$")
-    plt.axvline(x=couplingStartTime, color="red")
-    plt.legend()
-    plt.show()
-    pdb.set_trace()
+    # plt.plot(align0Res["alignedTimes0"], align0Res["alignedMeasurements0"], label=r"coupled $\theta_0$")
+    # plt.plot(align0Res["alignedTimes1"], align0Res["alignedMeasurements1"], label=r"uncoupled $\theta_1$")
+    # plt.plot(align0Res["alignedTimes0"], phaseDeviationsNeuron0, label=r"$\varphi_0$")
+    # plt.axvline(x=couplingStartTime, color="red")
+    # plt.legend()
+    # plt.show()
+    # pdb.set_trace()
     # end debug
     align1Res = alignMeasurements(times0=timePhasesNeuron1,
                                    measurements0=phasesNeuron1,

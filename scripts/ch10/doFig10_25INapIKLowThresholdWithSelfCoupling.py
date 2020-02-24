@@ -4,9 +4,10 @@ import numpy as np
 import pickle
 import pdb
 import matplotlib.pyplot as plt
-from syncUtils import getPhasesFromVoltages
-from circularStats import circularVariance
-from utils import alignMeasurements
+sys.path.append("../../src")
+from stats.circular import circularVariance
+from utils.misc import alignMeasurements
+from utils.sync import getPhasesFromVoltages
 
 def main(argv):
     def computeCircularVariances(phases1, phases2):
