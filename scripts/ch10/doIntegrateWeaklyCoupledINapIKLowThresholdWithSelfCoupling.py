@@ -1,14 +1,13 @@
 
 import sys
-from IPython.core import ultratb
-sys.excepthook = ultratb.FormattedTB(mode='Verbose', color_scheme='Linux', call_pdb=1)
 import numpy as np
 import pdb
 import matplotlib.pyplot as plt
 from scipy.integrate import ode
-from INapIKModel import INapIKModel
-from WeaklyCoupledOscillatorsModel import WeaklyCoupledOscillatorsModel
-from utils import integrateForward
+sys.path.append("../../src")
+from models.INapIKModel import INapIKModel
+from models.WeaklyCoupledOscillatorsModel import WeaklyCoupledOscillatorsModel
+from utils.misc import integrateForward
 
 def main(argv):
     if len(argv)!=2:
@@ -30,8 +29,10 @@ def main(argv):
     # v01 = -65.01 # blue
     # n01 = 0.16   # blue
     # set 3
-    v00 = -67.42 # red
-    n00 = 0.20   # red
+    # v00 = -67.42 # red
+    v00 = -26.30 # red
+    # n00 = 0.20   # red
+    n00 = 0.50   # red
     v01 = -65.01 # blue
     n01 = 0.16   # blue
     t0 = 0.0
