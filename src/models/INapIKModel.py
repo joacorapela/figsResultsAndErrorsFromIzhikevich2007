@@ -1,7 +1,7 @@
 
 import numpy as np
 import pdb
-from myMath import findZeroByBisection
+from utils.myMath import findZeroByBisection
 
 class INapIKModel:
 
@@ -47,7 +47,7 @@ class INapIKModel:
                         mVOneHalf=mVOneHalf, mK=mK, nVOneHalf=nVOneHalf, 
                         nK=nK, tau=tau))
 
-    def deriv(self, t, y):
+    def deriv(self, y, t):
         v = y[0]
         n = y[1]
 
