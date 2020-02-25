@@ -34,8 +34,10 @@ def main(argv):
     # v01 = -65.01 # blue
     # n01 = 0.16   # blue
     # set 3
-    v00 = -67.42 # red
-    n00 = 0.20   # red
+    # v00 = -67.42 # red
+    v00 = -26.30 # red
+    # n00 = 0.20   # red
+    n00 = 0.50   # red
     v01 = -65.01 # blue
     n01 = 0.16   # blue
     couplingStartTime = 100.44
@@ -104,6 +106,7 @@ def main(argv):
                                    measurements1=phaseDeviationsNeuron1)
     phaseDifs = align3Res["alignedMeasurements1"]-align3Res["alignedMeasurements0"]
 
+    fig = plt.figure()
     ax1 = plt.subplot(411)
     plt.plot(timesCoupled, voltagesCoupledNeuron0, color=colorNeuron0,
                     linestyle=linestyleCoupled, label=r"coupled $V_0$")
@@ -162,6 +165,7 @@ def main(argv):
 
     plt.savefig(figFilename)
     plt.show()
+
     pdb.set_trace()
 
 if __name__ == "__main__":
