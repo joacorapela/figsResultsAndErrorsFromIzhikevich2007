@@ -47,7 +47,7 @@ class INapIKModel:
                         mVOneHalf=mVOneHalf, mK=mK, nVOneHalf=nVOneHalf, 
                         nK=nK, tau=tau))
 
-    def deriv(self, y, t):
+    def deriv(self, t, y):
         v = y[0]
         n = y[1]
 
